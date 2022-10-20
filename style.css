@@ -1,0 +1,68 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Mouse+Memoirs&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,600&family=Tajawal:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 99px 0;
+}
+.max-width{
+    max-width: 1300px;
+    text-align: center;
+   
+}
+
+body{
+    display: flex;
+    background: url("rr.jpg") ;
+    height: 100vh;
+    background-size: cover; 
+}
+img{
+    width: 30%;
+}
+
+.glitter .home-content h1{
+    font-size: 33px;
+    color: rgb(7, 107, 121);
+    font-weight: 999;
+}
+.glitter .home-content h2{
+    font-size: 20px;
+    color:rgb(245, 33, 199);
+}
+
+.social-icons a {
+    color: rgb(7, 107, 121);
+      font-size: 40px;
+      transition: color 0.3s ease;
+
+  }
+  .social-icons img {
+    width: 20%;
+  }
+  .social-icons a:hover {
+    color:rgb(245, 33, 199);
+  }
+  .social-icons h3{
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+  }
+  h4{
+    font-size: 33px;
+    color:rgb(245, 33, 199);
+   
+  }
+
+  
+  
+ 
